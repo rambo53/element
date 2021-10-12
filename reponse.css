@@ -1,0 +1,29 @@
+
+div{
+    display: flex;   
+    align-items: center;
+    width: 24vw;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0,0.4);
+    border-radius: 0% 30% 30% 0%;
+    width: 22vw;
+    height: 5vh;
+}
+
+li{
+    margin-left: 1vw;
+    list-style-type: none;
+}
+
+img{
+    margin-right: -4vw;
+    height: 10vh;
+    border-radius: 100%;
+    filter: drop-shadow(0 0 1rem crimson);
+}
